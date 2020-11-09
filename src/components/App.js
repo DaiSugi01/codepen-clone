@@ -10,7 +10,6 @@ function App() {
   const [srcDoc, setSrcDoc] = useState('');
 
   useEffect(() => {
-    console.log("run")
     const timeout = setTimeout(() => {
       setSrcDoc(`
         <html>
